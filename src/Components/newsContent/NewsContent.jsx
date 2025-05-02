@@ -2,17 +2,16 @@ import React from 'react'
 import Navbar from './navbar/Navbar'
 import NewsSection from './newsSection/NewsSection'
 import Blogs from './blogs/Blogs'
-import Weather from './weather/Weather'
-import Calendar from './calendar/Calendar'
+import Widgets from './widgets/Widgets'
+
 
 const NewsContent = () => {
   return (
-    <div className="news-content">
+    <div className="news-content flex flex-grow gap-8 p-8 ">
       <Navbar/>
     <NewsSection/>
       <Blogs/>
-      <Weather/>
-      <Calendar/>
+      <Widgets/>
   </div>
   )
 }
